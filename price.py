@@ -21,7 +21,7 @@ tf.get_logger().setLevel('ERROR')
 # Suppress TensorFlow warnings
 warnings.filterwarnings("ignore")
 
-df = pd.read_csv("data/combined_df.csv")
+df = pd.read_csv("combined_df.csv")
 ZONE_KEYWORDS = {
     'dwarka': 'Dwarka',
     'rohini': 'Rohini',
